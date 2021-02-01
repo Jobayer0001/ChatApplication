@@ -72,7 +72,7 @@ class LoginFrameOne extends JFrame {
                     String[] sp;
 
                     try{
-                        BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\ASUS\\IdeaProjects\\Client\\src\\data.txt"));
+                        BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\ASUS\\IdeaProjects\\ChatApplication\\src\\data.txt"));
                         String line = reader.readLine();
                         while (line!=null){
                              sp = line.split("  ");

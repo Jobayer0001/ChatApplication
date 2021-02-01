@@ -77,7 +77,7 @@ public class SignUp extends JFrame {
                 String pass = passfield.getText();
 
                 try {
-                    FileWriter writer = new FileWriter("C:\\Users\\ASUS\\IdeaProjects\\Client\\src\\data.txt",
+                    FileWriter writer = new FileWriter("C:\\Users\\ASUS\\IdeaProjects\\ChatApplication\\src\\data.txt",
                             true);
                         writer.write(name+" "+pass+"  "+mob);
                         writer.write("\n");
