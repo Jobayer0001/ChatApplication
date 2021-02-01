@@ -68,7 +68,7 @@ class LoginFrameOne extends JFrame {
                     JOptionPane.showMessageDialog(null,"Invalid username or password");
                 }
                 else{
-                    int i,c=0;
+                    int i;
                     String[] sp;
 
                     try{

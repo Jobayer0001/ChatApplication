@@ -18,7 +18,6 @@ public class UserOne extends JFrame {
     BufferedWriter writer;
 
     UserOne() {
-
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setTitle("Rashed's chat box");
         this.setResizable(false);
