@@ -20,7 +20,7 @@ public class UserOne extends JFrame {
     UserOne() {
 
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        this.setTitle("Chat Application");
+        this.setTitle("Rashed's chat box");
         this.setResizable(false);
         this.setBounds(150,100,400,500);
 
